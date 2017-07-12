@@ -9,10 +9,9 @@ var imageNumber;
 // Script part //
 {
 ul = document.getElementsByTagName("img");
-console.log(ul);
 // liItems = ul.children;
 imageNumber = ul.length;
-console.log(imageNumber);
+alert(ul + imageNumber);
 
 
 
