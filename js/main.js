@@ -8,9 +8,9 @@ var imageNumber;
 
 // Script part //
 {
-ul = document.getElementsByClassName("imageslider")
+ul = document.getElementsByClassName("image-slider")
 alert ("Class Found !" + ul)
-liItems = ul.children
+liItems = ul.children;
 
 
 
