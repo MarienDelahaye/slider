@@ -19,15 +19,15 @@ function hideImages(){
     }
 }
 function timerInterval() {
-    timer = setInterval(slider, 5000);
+    timer = setInterval(launchTimer, 5000);
 }
-function slider() {
+function launchTimer() {
     alert("Test");
 }
 // Script part //
 // liItems = ul.children;
 hideImages();
-slider();
+launchTimer();
 timerInterval();
 
 
