@@ -1,5 +1,5 @@
 // Variables //
-var ul;
+var ul= [];
 var liItems; 
 var imageWidth;
 var imageNumber;
@@ -8,10 +8,11 @@ var imageNumber;
 
 // Script part //
 {
-ul = document.getElementsByClassName("image-slider")
-alert ("Class Found !" + ul)
-liItems = ul.children;
-
+ul = document.getElementsByTagName("img");
+console.log(ul);
+// liItems = ul.children;
+imageNumber = ul.length;
+console.log(imageNumber);
 
 
 
