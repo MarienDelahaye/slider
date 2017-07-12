@@ -25,7 +25,6 @@ function launchTimer() {
     alert("Test");
 }
 // Script part //
-// liItems = ul.children;
 hideImages();
 launchTimer();
 timerInterval();
