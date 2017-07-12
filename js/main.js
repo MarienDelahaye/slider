@@ -11,9 +11,10 @@ var imageNumber;
 ul = document.getElementsByTagName("img");
 // liItems = ul.children;
 imageNumber = ul.length;
-alert(ul + imageNumber);
+for (var i = 0; i < ul.length; i++);{
 
 
+}
 
 
 
