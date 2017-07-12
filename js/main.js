@@ -5,11 +5,13 @@ var imageWidth;
 var imageNumber;
 
 // Functions if needed //
-function launch()
+
 // Script part //
 {
-ul = document.getElementById("image-slider")
-alert("Test" + ul)
+ul = document.getElementsByClassName("imageslider")
+alert ("Class Found !" + ul)
+liItems = ul.children
+
 
 
 
