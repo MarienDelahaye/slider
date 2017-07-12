@@ -19,7 +19,7 @@ function hideImages(){
     }
 }
 function timerInterval() {
-    timer = setInterval(launchTimer, 5000);
+    timer = setInterval(launchTimer, 9000);
 }
 function launchTimer() {
     alert("Test");
